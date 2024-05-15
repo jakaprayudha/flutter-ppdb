@@ -36,6 +36,9 @@ class MyApp extends StatelessWidget {
           BlocProvider(
             create: (_) => PpdbBloc(),
           ),
+           BlocProvider(
+            create: (_) => accAccount(),
+          ),
         ],
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
