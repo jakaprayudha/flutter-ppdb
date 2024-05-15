@@ -5,4 +5,6 @@ extension FirebaseUserExtension on FirebaseUser {
       User(this.uid, this.email, name: name, userLevel: userLevel);
 
   Future<User> fromFireStore() async => await UserServices.getUser(uid);
+  Future<User> fromFireStore() async => await UserServices.getUser(name);
+   Future<User> fromFireStore() async => await UserServices.getUser(name);
 }
