@@ -39,6 +39,7 @@ class _PpdbSiswaState extends State<PpdbSiswa> {
     pekerjaanAyahController.text = widget.ppdbData.pekerjaanAyah;
     pekerjaanIbuController.text = widget.ppdbData.pekerjaanIbu;
     nomorTlpController.text = widget.ppdbData.nomorTlp;
+    emailController.text = widget.ppdbData.emailUser;
   }
 
   @override
